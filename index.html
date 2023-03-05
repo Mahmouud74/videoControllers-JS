@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/styles/style.css">
+</head>
+<body>
+    <section>
+        <div>
+            <video src="./assets/videos/frozen.mp4" width="100%" id="myVid" ></video>
+            <span id="indicators"></span>
+        </div>
+        <input id="videoPlay" type="range" min="0" max="100">    
+        <button id="playing">play</button>
+        <button id="pausing">stop</button>
+         <input id="toStart" type="button" value="&lt;&lt;">
+         <input id="decrease" type="button" value="&lt; ">
+         <input id="increase" type="button" value="&gt;">                
+         <input id="toEnd" type="button" value="&gt;&gt;">
+
+
+        <input id="mute" type="button" value="mute">  
+        <input id="volume" type="range" min="0" max="100">
+        <div id="speedCont">
+            <label for="speed"> speed </label>
+            <input id="speed" type="range" min="0" max="32" value="1">
+
+        </div>
+
+
+
+    </section>
+
+    <script src="./public/scripts/index.js"></script>
+</body>
+</html>

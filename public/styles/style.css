@@ -1,0 +1,23 @@
+section{
+    width: 50%;
+}
+#indicators{
+    float: right;
+}
+#videoPlay{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#volume,#mute {
+    float: right;
+}
+#toStart ,#toEnd,#increase,#decrease{
+    margin-left: 10px;
+}
+#pausing{
+    margin-right: 200px;
+}
+#speedCont{
+    margin-top: 10px;
+}
